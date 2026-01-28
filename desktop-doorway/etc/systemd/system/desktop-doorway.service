@@ -1,0 +1,9 @@
+[Unit]
+Description=Desktop Doorway
+WantedBy=vacant.target
+
+[Service]
+ExecStart=/usr/bin/logon-door.sh
+
+[Install]
+WantedBy=vacant.target

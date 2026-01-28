@@ -1,0 +1,24 @@
+# ninja log v5
+35617	35673	1769531794132147000	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/EWIEGA46WW/qrc_rsrc.cpp	4f65ce9a7e650f35
+71924	73183	1769550801247227400	DesktopDoorway_autogen/mocs_compilation.cpp	2f9470dbf7a41574
+73220	81138	1769550808985394200	CMakeFiles/DesktopDoorway.dir/dialog.cpp.o	7d415c48f14be569
+34436	35347	1769532292649403600	DesktopDoorway	963de3fc11222fec
+35617	35673	1769531794132147000	DesktopDoorway_autogen/EWIEGA46WW/qrc_rsrc.cpp	4f65ce9a7e650f35
+35679	35822	1769531794266671800	CMakeFiles/DesktopDoorway.dir/DesktopDoorway_autogen/EWIEGA46WW/qrc_rsrc.cpp.o	a21f953c236e9092
+32087	34431	1769532291789662700	CMakeFiles/DesktopDoorway.dir/mainwindow.cpp.o	eab8fbd86a7bb413
+71924	73183	1769550801247227400	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/timestamp	2f9470dbf7a41574
+73207	81063	1769550808927981500	CMakeFiles/DesktopDoorway.dir/main.cpp.o	4b076ea891f53ac5
+71924	73183	1769550801247227400	DesktopDoorway_autogen/timestamp	2f9470dbf7a41574
+61693	61765	0	clean	a31eedcededa8236
+71924	73183	1769550801247227400	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/mocs_compilation.cpp	2f9470dbf7a41574
+33461	70109	1769550938054247300	build.ninja	e0dd85f6bd185f65
+73200	80735	1769550808599148000	CMakeFiles/DesktopDoorway.dir/DesktopDoorway_autogen/mocs_compilation.cpp.o	e310f12e47ac8199
+38	46091	1769550865216256700	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	e7d68b54704cab3c
+61547	61691	0	CMakeFiles/clean.additional	ef993b15a92b8f11
+46094	91204	1769550938054247300	build.ninja	e0dd85f6bd185f65
+51	53412	0	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	e7d68b54704cab3c
+53485	53620	1769550990288766200	DesktopDoorway_autogen/timestamp	2f9470dbf7a41574
+53485	53620	1769550990288766200	DesktopDoorway_autogen/mocs_compilation.cpp	2f9470dbf7a41574
+53485	53620	1769550990288766200	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/timestamp	2f9470dbf7a41574
+53485	53620	1769550990288766200	/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/mocs_compilation.cpp	2f9470dbf7a41574
+53676	53914	1769550992772064100	CMakeFiles/DesktopDoorway.dir/dialog.cpp.o	7d415c48f14be569

@@ -1,0 +1,6 @@
+Package: desktop-doorway
+Version: 1.0
+Architecture: all
+Maintainer: Evan McAfee <evanjmcafee@gmail.com>
+Description: Simple login screen
+ For Envision OS project.

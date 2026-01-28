@@ -1,0 +1,2 @@
+sudo systemctl enable vacant.target
+sudo systemctl enable desktop-doorway.service
