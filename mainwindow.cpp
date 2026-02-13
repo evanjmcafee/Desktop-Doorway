@@ -1,15 +1,19 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "dialog.h"
 #include <QProcess>
 #include <QComboBox>
 #include <QStringList>
 #include <QDebug>
-#include <QTimer>
-#include <QTime>
+#include <qtimer.h>
+#include <unistd.h>
+#include <qdatetime.h>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
-{QProcess process;
+{
+    QProcess process;
     // The 'cat /etc/passwd' command lists all users on Linux systems
     process.start("dir", QStringList() << "/home");
     process.waitForFinished(); // Wait for the process to finish
@@ -30,8 +34,8 @@ MainWindow::MainWindow(QWidget *parent)
     t->setInterval(1000);
     connect(t, &QTimer::timeout, [&]() {
         QString Time = QTime::currentTime().toString(" hh:mm AP");
-        QString Date = QTime::currentTime().toString("MM/dd ");
-        ui->Date->setText(Date);
+        QString datedata = QDate::currentDate().toString("MM/dd/yyyy");
+        ui->datelabel->setText(datedata);
         ui->clock->setText(Time);
     } );
     t->start();
@@ -48,8 +52,35 @@ void MainWindow::on_LoginButton_pressed()
 }
 
 void MainWindow::login(){
-    QString username;
-    
+    pid_t p;
+    p = fork();
+    // The arguments to pass to the program
+
+    // Start the process
+    if (p == 0){
+        if (ui->lineEdit->isVisible()){
+            QStringList arguments;
+            QProcess *process = new QProcess();
+
+            arguments<<ui->Users->currentText();
+
+            arguments<<ui->lineEdit->text();
+
+            process->start("bash /etc/userscripts/menu/pwd.sh", arguments);
+            if (process->waitForFinished(-1)) {
+                QByteArray output = process->readAllStandardOutput();
+                QByteArray error = process->readAllStandardError();
+            }
+        }else{
+            QStringList arguments;
+
+            QProcess *process = new QProcess();
+            arguments<<ui->Users->currentText();
+
+            process->start("bash /etc/userscripts/menu/nopwd.sh", arguments);
+
+        }
+    }
 }
 void MainWindow::on_Users_currentIndexChanged(int index)
 {
@@ -81,10 +112,9 @@ void MainWindow::on_lineEdit_returnPressed()
 
 void MainWindow::on_pushButton_pressed()
 {
-    dialog d = new dialog();
-
-    // Open it modally and wait for user interaction
-    d.exec();
+    Dialog *dlg = new Dialog(this);
+    dlg->setAttribute(Qt::WA_DeleteOnClose);
+    dlg->exec(); // Show as modal
 }
 
 

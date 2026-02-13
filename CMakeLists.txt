@@ -19,6 +19,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        rsrc.qrc
         ${TS_FILES}
 )
 
@@ -26,7 +27,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(DesktopDoorway
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        rsrc.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DesktopDoorway APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -44,7 +44,6 @@ else()
     else()
         add_executable(DesktopDoorway
             ${PROJECT_SOURCES}
-            rsrc.qrc
             dialog.h dialog.cpp dialog.ui
         )
     endif()

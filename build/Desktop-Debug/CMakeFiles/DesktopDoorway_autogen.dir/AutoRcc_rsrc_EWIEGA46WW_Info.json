@@ -8,6 +8,7 @@
 	"INCLUDE_DIR" : "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/include",
 	"INPUTS" : 
 	[
+		"/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/img/BG.png",
 		"/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/img/profile.png",
 		"/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/img/Power.png"
 	],

@@ -41,11 +41,13 @@ endif()
 # _directory_contents at /usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/*.cpp")
 set(OLD_GLOB
+  "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/EWIEGA46WW/moc_dialog.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/EWIEGA46WW/qrc_rsrc.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-Debug/DesktopDoorway_autogen/mocs_compilation.cpp"
+  "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/build/Desktop-MinSizeRel/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/dialog.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/main.cpp"
   "/mnt/c/Users/3vanm/Desktop/envision/apps/DesktopDoorway/mainwindow.cpp"
